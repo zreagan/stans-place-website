@@ -524,6 +524,36 @@ h3 {
   transition: transform 0.7s ease;
 }
 
+/* The 220S lead photo is 3:2 and the car fills the width. Stretching this
+   frame to the tall copy column crops both ends of the car. Keep the
+   photo's own ratio, and keep the image absolutely positioned so it
+   cannot expand the grid on small screens. */
+.vehicle[data-vehicle="220s"] {
+  align-items: center;
+}
+
+.vehicle[data-vehicle="220s"] .vehicle-media {
+  aspect-ratio: 3 / 2;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  min-height: 0;
+  height: auto;
+}
+
+.vehicle[data-vehicle="220s"] .vehicle-media img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center center;
+}
+
+.vehicle[data-vehicle="220s"]:hover .vehicle-media img {
+  transform: none;
+}
+
 .vehicle:hover .vehicle-media img {
   transform: scale(1.03);
 }
@@ -665,6 +695,18 @@ h3 {
   transition: transform 0.55s ease;
 }
 
+/* Full-car 220S shots are wider than the shared 4:3 cells. Fit the
+   whole photo inside the cell so the bumpers stay visible and the
+   rest of the gallery keeps one frame size. */
+.mercedes-shot--full img {
+  object-fit: contain;
+  object-position: center center;
+}
+
+.mercedes-shot--full:hover img {
+  transform: none;
+}
+
 .mercedes-shot:hover img {
   transform: scale(1.05);
 }
@@ -753,6 +795,11 @@ h3 {
   aspect-ratio: 4 / 3;
   overflow: hidden;
   background: var(--charcoal-soft);
+}
+
+/* 220S exterior is 3:2. A 4:3 cover crop clips the ends of the car. */
+.card-media--wide {
+  aspect-ratio: 3 / 2;
 }
 
 .card-media img {
