@@ -18,10 +18,9 @@ A private collection website for **Stan Hollingsworth** — featuring 1930s Pack
 
 ### Other classics
 - **1963 Mercedes-Benz 190SL** — Light Blue (DB334), single-family owned, Silver Star Restorations (2013–2018); photos & details from [BaT Lot #252,725](https://bringatrailer.com/listing/1963-mercedes-benz-190sl-19/)  
+- **1959 Mercedes-Benz 220S Cabriolet** — W180 Ponton, gray over red leather, owned by Stan & Ginny Hollingsworth; photos & details from [BaT Lot #273,531](https://bringatrailer.com/listing/1959-mercedes-benz-220s-28/)  
 - 1951 Allard K2  
 - 1947 HRG  
-- 1951 Chevrolet 3600  
-- 1953 Harley-Davidson Police Trike  
 
 ### Tractors
 - 1941 John Deere LA  
